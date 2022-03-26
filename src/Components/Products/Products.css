@@ -1,0 +1,21 @@
+.products-container{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+.products-container img{
+    width: 286px;
+    height: 286px;
+    border-radius: 5px;
+}
+.products-container button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: slategray;
+    color: white;
+    border-radius: 5px;
+}
+.icon{
+    margin-left: 10px;
+}
