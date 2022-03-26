@@ -1,13 +1,40 @@
-.product-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 301px;
-    height: 501px;
-    grid-gap: 40px;
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 301px;
+  grid-gap: 40px;
 }
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding-left: 50px;
-    padding-right: 50px;
 }
+.questions{
+    background-color: aliceblue;
+    padding: 30px;
+}
+.order-container{
+    text-align: center;
+    background-color: beige;
+    width: 300px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .product-container {
+    grid-template-columns: repeat(1, 1fr)
+  }
+  .order-container {
+     width: 300px;
+    }
+  .order-container button {
+    width: 150px;
+  }
+  .questions{
+      margin-top: 20px;
+      padding: 20px;
+      font-size: 1px;
+  }
+}  
